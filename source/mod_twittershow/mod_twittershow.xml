@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>Twitter Show</name>
+	<author>Trefex</author>
+	<version>0.0.2</version>
+	<creationDate>July 2013</creationDate>
+	<copyright>Trefex 2013</copyright>
+	<license>Creative Commons by-nd</license>
+	<authorEmail>trefex@gmail.com</authorEmail>
+	<authorURL>https://github.com/Trefex</authorURL>
+	<description>Show Twitter feed using Twitter API</description>
+	<files>
+		<filename>mod_twittershow.xml</filename>
+		<filename module="mod_twittershow">mod_twittershow.php</filename>
+		<filename>index.html</filename>
+		<filename>tmpl/default.php</filename>
+		<filename>tmpl/index.html</filename>
+		<filename>helper.php</filename>	
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="widgetid" type="text" label="Twitter Widget ID" description="Enter Widget ID that you created on Twitter." />
+				<field name="twittername" type="text" label="Twitter Name" description="Enter your Twitter Username." />
+			</fieldset>
+		
+			<fieldset name="advanced">
+				<field name="moduleclass_sfx" type="text" label="Module Class Suffix" description="Please enter Module Class Suffix" />
+			</fieldset>
+		</fields>
+	</config>
+	
+</extension>
