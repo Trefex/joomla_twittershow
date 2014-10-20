@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<extension type="module" version="3.0" client="site" method="upgrade">
+<extension type="module" version="3.3" client="site" method="upgrade">
 	<name>Twitter Show</name>
 	<author>Trefex</author>
-	<version>0.0.2</version>
-	<creationDate>July 2013</creationDate>
-	<copyright>Trefex 2013</copyright>
-	<license>Creative Commons by-nd</license>
+	<version>0.0.4</version>
+	<creationDate>20 Oct 2014</creationDate>
+	<copyright>Trefex 2014</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
 	<authorEmail>trefex@gmail.com</authorEmail>
 	<authorURL>https://github.com/Trefex</authorURL>
 	<description>Show Twitter feed using Twitter API</description>
@@ -15,7 +15,7 @@
 		<filename>index.html</filename>
 		<filename>tmpl/default.php</filename>
 		<filename>tmpl/index.html</filename>
-		<filename>helper.php</filename>	
+		<filename>helper.php</filename>
 	</files>
 	<config>
 		<fields name="params">
@@ -23,11 +23,13 @@
 				<field name="widgetid" type="text" label="Twitter Widget ID" description="Enter Widget ID that you created on Twitter." />
 				<field name="twittername" type="text" label="Twitter Name" description="Enter your Twitter Username." />
 			</fieldset>
-		
+
 			<fieldset name="advanced">
 				<field name="moduleclass_sfx" type="text" label="Module Class Suffix" description="Please enter Module Class Suffix" />
 			</fieldset>
 		</fields>
 	</config>
-	
+	<updateservers>
+		<server type="extension" priority="1" name="Twitter Show">https://raw.githubusercontent.com/Trefex/joomla_twittershow/master/updates/twitterupdate.xml</server>
+	</updateservers>
 </extension>

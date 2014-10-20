@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<updates>
+  <update>
+     <name>Twitter Show</name>
+     <description>Fetch facebook group events and displays them in module</description>
+     <element>mod_twittershow</element>
+     <type>module</type>
+     <client>site</client>
+     <version>0.0.4</version>
+
+     <infourl title="Twitter Show">https://github.com/Trefex/joomla_twittershow</infourl>
+     <downloads>
+        <downloadurl type="full" format="zip">https://github.com/Trefex/joomla_twittershow/raw/master/downloads/mod_twittershow_v0.0.4.zip</downloadurl>
+     </downloads>
+
+     <maintainer>Trefex</maintainer>
+     <maintainerurl>https://github.com/Trefex</maintainerurl>
+     <targetplatform name="joomla" version="3.[012345]" />
+  </update>
+
+  <update>
+     <name>Twitter Show</name>
+     <description>Fetch facebook group events and displays them in module</description>
+     <element>mod_twittershow</element>
+     <type>module</type>
+     <client>site</client>
+     <version>0.0.3</version>
+
+     <infourl title="Twitter Show">https://github.com/Trefex/joomla_twittershow</infourl>
+     <downloads>
+        <downloadurl type="full" format="zip">https://github.com/Trefex/joomla_twittershow/raw/master/downloads/mod_twittershow_v0.0.3.zip</downloadurl>
+     </downloads>
+
+     <maintainer>Trefex</maintainer>
+     <maintainerurl>https://github.com/Trefex</maintainerurl>
+     <targetplatform name="joomla" version="3.[012345]" />
+  </update>
+</updates>
