@@ -1,4 +1,4 @@
-joomla_twittershow
+Joomla Twitter Widget Module
 ==================
 
 Joomla Module for displaying the Twitter Widget created via Twitter.
