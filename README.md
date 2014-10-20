@@ -11,6 +11,18 @@ In the settings of the module, you provide the Twitter Widget ID and the Twitter
 
 **All** issues and feature requests should be made via github only.
 
+#### Installation
+
+Download the latest release from the **downloads** folder and install using Joomla.
+Future releases can be updated using the Joomla Updater.
+
+#### Customization
+
+To get the module as shown in the screenshot, be sure to set the **Module Style** in the **Advanced**
+tab in the module settings to **none**.
+
+#### Screenshots
+
 See the images below or in the screenshots folder to see the *module* in action
 
 View of the back-end using *isis* template:
